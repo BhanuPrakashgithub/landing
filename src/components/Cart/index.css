@@ -1,0 +1,70 @@
+.cart-container {
+  display: flex;
+  justify-content: center;
+  min-height: 75vh;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-container {
+    min-height: 90vh;
+  }
+}
+
+.cart-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1110px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-content-container {
+    width: 80%;
+    max-width: 1110px;
+  }
+}
+
+.cart-heading {
+  color: #3e4c59;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-heading {
+    font-size: 48px;
+  }
+}
+
+/* Write your CSS here */
+.but {
+  color: blue;
+  margin-left: auto;
+  background-color: transparent;
+  border-width: 0px;
+}
+.first {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: auto;
+}
+.para {
+  color: #616e7c;
+}
+.s1 {
+  color: #171f46;
+}
+.para1 {
+  color: #616e7c;
+}
+.but6 {
+  color: #616e7c;
+  background-color: #0b69ff;
+  width: 100px;
+  height: 30px;
+  border-width: 0px;
+  border-radius: 10px;
+  padding: 10px;
+}
